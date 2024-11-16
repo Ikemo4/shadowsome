@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'copperplate': ['copperplate', 'roboto', 'serif']
+    }
   },
   plugins: [],
 }
