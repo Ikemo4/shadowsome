@@ -1,4 +1,7 @@
-<div class="text-4xl font-bold"><span class="text-orange-600 font-['copperplate']">Shadow</span><span class="text-gray-700 font-copperplate">Some</span></div>
+<div class="flex justify-between">
+    <div class="text-4xl font-bold"><span class="text-orange-600 font-['copperplate']">Shadow</span><span class="text-gray-700 font-copperplate">Some</span></div>
+    <div><button class="text-gray-800 p-1" (click)="setSeeker()">Seeker</button><button class="text-gray-800 p-1" (click)="setJobber()">Jobber</button></div>
+</div>
 <nav class="bg-gray-800 text-white">
     <ul class="flex justify-start space-x-4 p-4">
         <li><a routerLink="/shadowees" class="hover:underline">Shadowees</a></li>

@@ -16,4 +16,12 @@ export class AppComponent implements OnInit {
   isAuthenticated = true;
   ngOnInit(): void {
   }
+
+  setSeeker(): void {
+    //set user as a seeker
+  }
+
+  setJobber(): void {
+    //set user as a jobber
+  }
 }

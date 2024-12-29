@@ -1,1 +1,13 @@
-<p>shadowee-list works!</p>
+<div class="flex bg-gray-500">
+    <input 
+        class="rounded m-4 p-1 pt-2 text-blue-500 placeholder-blue-500 max-h-8 bg-gray-200"
+        placeholder="search for jobs"
+    />
+    <div>
+        <app-shadow-posting (click)="goToShadowPost()"></app-shadow-posting>
+        <app-shadow-posting></app-shadow-posting>
+        <app-shadow-posting></app-shadow-posting>
+        <app-shadow-posting></app-shadow-posting>
+        <app-shadow-posting></app-shadow-posting>
+    </div>
+</div>
